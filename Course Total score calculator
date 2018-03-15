@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+	float Kor = 73.5, Eng = 80, Math = 90;
+	float total;
+	
+	total = Kor + Eng + Math;
+	printf("국어: %f, 영어: %f, 수학: %f\n\n", Kor, Eng, Math);
+	printf("총점은 %f로 합격입니다.",total);
+	
+	return 0; 
+}
